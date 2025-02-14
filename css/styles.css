@@ -84,11 +84,6 @@ button {
 
 }
 
-.nav-header-item-nav{
-  list-style-type: none;
-  margin-right: 0;
-}
-
 .nav-item-link {
   display: inline-block;
   font-weight: 500;
