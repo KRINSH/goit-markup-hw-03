@@ -202,12 +202,16 @@ button {
 
 .our-services-list-item {
   width: calc((100% - 72px) / 4);
+  margin-right: 24px;
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
   flex-direction: column;
   gap: 269px;
 }
+
+.our-services-list-item:last-child {
+  margin-right: 0;
 
 .our-services-item-title {
   font-weight: 500;
@@ -232,6 +236,7 @@ button {
 /* #region-our-team */
 .our-team {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 
 .our-team-title {
@@ -244,12 +249,31 @@ button {
   text-transform: capitalize;
   font-size: 36px;
   line-height: 1.11;
+  margin-bottom: 72px;
 }
 
-.our-team-list {}
+.our-team-list {
+  display: flex;
+  gap: 24px;
+}
 
 .our-team-list-item {
   background-color: #fff;
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px; 
+}
+
+.our-team-list-item-text {
+  padding: 32px 0;
+}
+
+.our-services-item-title {
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.our-services-item-text {
+  text-align: center;
 }
 
 .our-team-list-item img {
