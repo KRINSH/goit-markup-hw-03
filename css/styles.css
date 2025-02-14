@@ -39,8 +39,11 @@ button {
   align-items: center;
 }
 .container {
+  display: flex;
   width: 1158px;
   margin: 0 auto;
+  padding: 0 15px;
+
 }
 
 .logo {
@@ -75,6 +78,7 @@ button {
 }
 
 .nav-header-item {
+  display: flex;
   list-style-type: none;
   margin-right: 40px;
 
@@ -107,6 +111,9 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   gap: 40px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  
   
 }
 
