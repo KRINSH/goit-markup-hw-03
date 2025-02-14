@@ -175,14 +175,33 @@ button {
   background-color: #404bbf;
 }
 
+.our-services {
+  padding: 120px 0;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
 .our-services-title {
   font-size: 20px;
   line-height: 1.2;
+
 }
 .our-services-list {
+  display: flex;
+  gap: 24px;
 }
 
 .our-services-list-item {
+  width: calc((100% - 72px) / 4);
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
@@ -196,6 +215,7 @@ button {
   color: #2e2f42;
   font-size: 20px;
   line-height: 1.2;
+  margin-bottom: 8px;
 }
 
 .our-services-item-text {
