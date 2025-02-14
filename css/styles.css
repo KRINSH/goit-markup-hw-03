@@ -132,6 +132,7 @@ button {
 /* #region-hero */
 .hero {
   background-color: #2e2f42;
+  padding: 188px 0;
 }
 
 .hero-title {
@@ -145,14 +146,12 @@ button {
   display: block;
   margin: 0 auto; 
   text-align: center; 
-  padding-top: 188px;
-  padding-bottom: 292px;
 
 
 }
 
 .hero-button {
-  display: flex;
+  display: block;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -165,7 +164,9 @@ button {
   border-radius: 4px;
   text-align: center;
     align-self: center;
-    margin-top: 20px;
+    min-width: 169px;
+    height: 56px;
+    cursor: pointer;
   }
 
 
