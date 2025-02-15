@@ -40,6 +40,7 @@ ul,ol {
   overflow: hidden;
 }
 .container {
+  display: flex;
   margin: 0 auto;
   width: 1158px;
   padding: 0 15px;
@@ -69,13 +70,6 @@ ul,ol {
 .nav-header {
   display: flex;
   align-items: center;
-}
-.container {
-  width: 1158px;
-  margin: 0 auto;
-  padding: 0 15px;
-  align-items: center;
-
 }
 
 .logo {
@@ -239,6 +233,8 @@ ul,ol {
   font-size: 20px;
   line-height: 1.2;
   margin-bottom: 8px;
+  text-align: center;
+
 }
 
 .our-services-item-text {
@@ -249,6 +245,7 @@ ul,ol {
   color: #434455;
   font-size: 20px;
   line-height: 1.2;
+  text-align: center;
 }
 /* #endregion-hero */
 
@@ -328,14 +325,6 @@ margin-bottom: 72px;
   border-top: none;
 }
 
-
-.our-services-item-text {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
 /* #endregion-our-portfolio */
 
 /* #region-footer */
