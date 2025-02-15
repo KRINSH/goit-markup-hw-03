@@ -180,15 +180,6 @@ button {
 }
 
 .visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  border: 0;
-
 }
 
 .our-services-title {
@@ -208,7 +199,7 @@ button {
   justify-content: flex-start;
   flex-direction: column;
   gap: 269px;
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .our-services-list-item:last-child {
@@ -339,6 +330,7 @@ margin-bottom: 72px;
 .footer {
   background-color: #2e2f42;
   line-height: 1.17;
+  padding: 100px 0;
 }
 
 .footer-logo {
@@ -348,6 +340,8 @@ margin-bottom: 72px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  display: inline-block; 
+  margin-bottom: 16px;
 }
 
 .footer-logo-style {
@@ -365,5 +359,6 @@ margin-bottom: 72px;
   letter-spacing: 0.02em;
   background-color: #f4f4fd;
   line-height: 1.5;
+  max-width: 264px;
 }
 /* #endregion-footer */
