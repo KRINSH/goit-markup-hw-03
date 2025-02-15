@@ -164,6 +164,10 @@ ul,ol {
   padding: 188px 0;
 }
 
+.hero-title {
+  max-width: 496px;
+}
+
 .title-descr, .visually-hidden {
   position: absolute;
       width: 1px;
@@ -316,7 +320,7 @@ margin-bottom: 72px;
 }
 
 .our-portfolio-list-item {
-  width: calc((100% - 48px) /3);
+  width: calc((100% - 48px)/3);
 
 }
 
