@@ -352,10 +352,12 @@ margin-bottom: 72px;
 .footer {
   background-color: #2e2f42;
   padding: 100px 0;
+  display: inline-block;
 }
 
 .container-footer {
   flex-direction: column;
+  display: inline-block;
 }
 
 .footer-logo {
@@ -368,15 +370,17 @@ margin-bottom: 72px;
   text-transform: uppercase;
   color: #4d5ae5;
   margin-bottom: 16px;
+  display: inline-block;
 }
 
 .footer-logo-style {
+  display: inline-block;
   color: #f4f4fd;
 }
 
 .footer-text {
   color: #f4f4fd;
   margin-top: 8px;
-  max-width:264px;
+  display: inline-block;
 }
 /* #endregion-footer */
